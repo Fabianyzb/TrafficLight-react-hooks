@@ -1,0 +1,34 @@
+.traffic-light{
+    background-color: black;
+    padding: 10px;
+    display: inline-block;
+    margin:auto
+}
+
+.light{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.red{
+    background: red
+}
+
+.yellow{
+    background: yellow;
+}
+
+.green{
+    background: green;
+}
+
+.glow{
+    
+       
+      
+        box-shadow: 0px 0px 30px 10px rgb(225, 210, 244);
+        /* in order: x offset, y offset, blur size, spread size, color */
+        /* blur size and spread size are optional (they default to 0) */
+    
+}
